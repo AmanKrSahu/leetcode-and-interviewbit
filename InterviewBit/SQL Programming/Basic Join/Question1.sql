@@ -1,0 +1,7 @@
+SELECT SUM(E.Count) AS "A"
+FROM ENGINEER E
+LEFT JOIN
+    DATA D
+    ON E.ID = D.ID
+WHERE
+    D.Type = "FrontEnd";

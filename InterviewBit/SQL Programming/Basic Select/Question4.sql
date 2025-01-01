@@ -1,0 +1,3 @@
+SELECT Name
+FROM COUNTRY
+WHERE Code = "NA";
